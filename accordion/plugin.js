@@ -5,7 +5,7 @@ CKEDITOR.plugins.add( 'accordion', {
         editor.addCommand( 'accordionDialog', new CKEDITOR.dialogCommand( 'accordionDialog' ) );
 
         //setando o botão
-        editor.ui.addButton('Accordion', {
+        editor.ui.addButton('accordion', {
             label: 'Inserir Accordion',
             command: 'accordionDialog',
             toolbar: 'insert'
